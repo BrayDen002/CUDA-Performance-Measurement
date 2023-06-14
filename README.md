@@ -2,13 +2,13 @@ When you run each code, it will iterate through the set of problem sizes predefi
 
 # Building and running the codes on Perlmutter@NERSC
 
-`Use: ssh username@saul-p1.nersc.gov`
+`Use: ssh saul-p1.nersc.gov`
 to log into Perlmutter
 
 After [logging in to perlmutter at NERSC,](https://docs.nersc.gov/systems/perlmutter/), either pull the code directly from git or [transfer a copy from your local machine to NERSC](https://docs.nersc.gov/services/scp/).
 
 Transferring files: 
-`rsync -a /mnt/Downloads username@saul-p1.nersc.gov:rsync`
+`rsync -a /mnt/Downloads saul-p1.nersc.gov:rsync`
 
 `% module load PrgEnv-nvidia`
 
