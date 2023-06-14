@@ -21,12 +21,19 @@ Once you have built the codes, you may request interactive access to a Perlmutte
 Once you are on an interactive CPU node, run each of the codes using these commands:
 
 `% nvcc vecadd_gpu_1t.cu -o vecadd_gpu_1t`
+
 `% srun nsys nvprof ./vecadd_gpu_1t`
+
 `% nvcc vecadd_gpu_256t.cu -o vecadd_gpu_256t`
+
 `% srun nsys nvprof ./vecadd_gpu_256t`
+
 `% nvcc vecadd_gpu_256t_manyblocks.cu -o vecadd_gpu_256t_manyblocks`
+
 `% srun nsys nvprof ./vecadd_gpu_256t_manyblocks`
+
 `% nvcc vecadd_gpu_256t_manyblocks_prefetch.cu -o vecadd_gpu_256t_manyblocks_prefetch`
+
 `% srun nsys nvprof ./vecadd_gpu_256t_manyblocks_prefetch`
 
 
